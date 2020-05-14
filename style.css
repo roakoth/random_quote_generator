@@ -1,0 +1,28 @@
+body{
+    background: url("https://mdbootstrap.com/api/snippets/static/screenshots/916518.jpeg") no-repeat center center fixed;
+}
+.wrapper{
+    margin:10%;
+    background-color: rgb(77, 10, 45);
+    padding: 2%;
+    border-radius: 10%;
+     opacity: 0.6;
+    filter: alpha(opacity=50); 
+  
+  }
+  h1{
+    
+      font-size: 250%;
+  }
+  .btn-lg{
+    background-color:rgba(0,0,0, 0.8);
+    color: white;
+    font-family: 'Damion', cursive;
+    font-size:250%;
+    
+  } 
+  #quoteDisplay{
+    font-family: 'Aref Ruqaa', serif;
+    font-size:190%;
+    color:white;
+    }
