@@ -8,11 +8,11 @@ body{
     border-radius: 10%;
      opacity: 0.6;
     filter: alpha(opacity=50); 
+    text-align: center;
   
   }
   h1{
-    
-      font-size: 250%;
+    font-size: 250%;
   }
   .btn-lg{
     background-color:rgba(0,0,0, 0.8);
