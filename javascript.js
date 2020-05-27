@@ -24,8 +24,6 @@ var end = ['so they end up doing nothing and their dreams become impossible.',
 
 const quoteButton = document.getElementById('btn-lg');
 let quote = '';
-let quoteNum = 1;
-let quoteType = 1;
 
 function randomNumber(){
     var randomNum = Math.floor(Math.random()*5);
