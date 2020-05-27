@@ -1,21 +1,60 @@
-var quotes = [
-    'When you live your life by poor standards, you inflict damage on everyone who crosses your path, especially those you love.',
-    'You may not have connections, or an education, or wealth, but with enough passion and sweat, you can make anything happen.',
-    'The right reason and motive for success, while pursued in the right way, will trigger divine support, human celebration and personal fulfilment, because the endeavor becomes bigger than oneself.',
-    'She is that maze, the one you would love to chase. She is the faith, quite missing nowadays. And her heart is a rave, with hopeless barricades. She is the one, whose tears flow, just as lavishly, as her laughter roars!',
-    'Truly the light is sweet, and a pleasant thing it is for the eyes to behold the sun: But if a man live many years and rejoice in them all; yet let him remember the days of darkness; for they shall be many. And all that cometh is vanity.'
+var beg = ['For some people',
+'Every success',
+'My hope for the future',
+'But hope',
+'Even in the mud and scum of things'
 ]
 
-var authors = [
-    'Jordan Belfort', 'Gary Vaynerchuk', 'Dr Lucas D. Shallua','Jasleen Kour Gumbler', 'Compton Gage']
+var middle = ['their fear to lose is greater than the desire to succeed',
+'whether it is the biggest or the smallest',
+'not just in the music industry',
+'like heroes',
+'something always'
+]
 
+var end = ['so they end up doing nothing and their dreams become impossible.',
+'inspires the joy and beauty of life.',
+'but in every young girl I meet is that they all realize their worth and ask for it.',
+'can prove hard to kill',
+'always sings.'
+]
+
+ var authors = [
+     'Jordan Belfort', 'Gary Vaynerchuk', 'Dr Lucas D. Shallua','Jasleen Kour Gumbler', 'Compton Gage']
+
+const quoteButton = document.getElementById('btn-lg');
+let quote = '';
+let quoteNum = 1;
+let quoteType = 1;
+
+function randomNumber(){
+    var randomNum = Math.floor(Math.random()*5);
+    return randomNum;
+}
 
 function randomNewQuote(){
-    var randomNumber = Math.floor(Math.random()*(quotes.length));
-    document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
-    document.getElementById('authorDisplay').innerHTML = authors[randomNumber];
-    var randomQuotes = quotes[RandomNumber]+" - "+authors[RandomNumber];
-    }
+     quote = '';
+    var begRandom = randomNumber();
+    var middleRandom = randomNumber();
+    var endRandom = randomNumber();
+    var authorsRandom = randomNumber();
+
+   quote = beg[begRandom] + ' ' + middle[middleRandom] + ' ' + end[endRandom]+ ' ' + authors[authorsRandom];
+  
+    return quote; 
+
+}
+
+quoteButton.addEventListener('click',()=>{
+    let CompleteQuote = randomNewQuote();
+    document.getElementById('quoteDisplay').innerHTML = CompleteQuote;   
+});
+
+
+
+    
+    
+    
 
     
     
