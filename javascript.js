@@ -31,7 +31,6 @@ function randomNumber(){
 }
 
 function randomNewQuote(){
-     quote = '';
     var begRandom = randomNumber();
     var middleRandom = randomNumber();
     var endRandom = randomNumber();
