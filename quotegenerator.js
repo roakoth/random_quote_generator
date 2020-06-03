@@ -128,7 +128,6 @@ displayQuotes();
 
 });  
  
-console.log(quote_num.value);
  
 
 
