@@ -11,12 +11,40 @@
 <body>
     <h1> Random Quote Generator</h1>
     <div class = "wrapper">
+            <p id="quotes"> Select the type of quote </p>
+    
+        <div class = "form-group">
+            <div class = "form-check">
+                <input class = "form-check-input" type="radio"
+                id="success-radio" value="successValue" name="quote_types">
+                <label class="form-check-label" for="success-radio"> 
+                    Success
+                 </label>
+            </div>
+            <div class = "form-check">
+                <input class = "form-check-input" type="radio"
+                id="life-radio" value="lifeValue" name="quote_types">
+                <label class="form-check-label" for="life-radio"> 
+                    Life
+                 </label>
+            </div> 
+        </div>
+
+
+   
+        <div class ="form-group">
+            <label for="one">Number of quotes:</label><br>
+            <input type="number" id="number_quotes" name="number_of_quotes" onkeypress="" min="1" max="5">
+        </div>
+                        
         <p id="quoteDisplay"> </p>
-        <!-- <strong> <p id = "authorDisplay"> </p></strong> -->
+        <p id="error"> </p>
+
         <strong> <button id ="btn-lg"> New Quote</button> </strong>
+        <strong> <button id ="btn-quit">Quit</button></strong>
         
     </div>
-    <script src="javascript.js"></script>    
+    <script src="quotegenerator.js"></script>    
 </body>
 
 </html>

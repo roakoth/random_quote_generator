@@ -2,7 +2,7 @@ body{
     background: url("https://mdbootstrap.com/api/snippets/static/screenshots/916518.jpeg") no-repeat center center fixed;
 }
 .wrapper{
-    margin:10%;
+    margin:3%;
     background-color: rgb(77, 10, 45);
     padding: 2%;
     border-radius: 10%;
@@ -19,8 +19,29 @@ body{
     color: white;
     font-family: 'Damion', cursive;
     font-size:200%;
-    
   } 
+  #btn-quit{
+    background-color:rgba(0,0,0, 0.8);
+    color: white;
+    font-family: 'Damion', cursive;
+    font-size:200%;
+  }
+  #quotes{
+    font-family: 'Aref Ruqaa', serif;
+    font-size:200%;
+    color:white; 
+  }
+  .form-group{
+    font-family: 'Aref Ruqaa', serif;
+    font-size:200%;
+    color:white;
+  }
+  .form-control{
+    background-color:rgba(0,0,0, 0.8);
+    font-size:80%;
+    font-family: 'Aref Ruqaa', serif;
+    color:white;
+    }
   #quoteDisplay{
     font-family: 'Aref Ruqaa', serif;
     font-size:200%;
