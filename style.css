@@ -1,54 +1,61 @@
-body{
-    background: url("https://mdbootstrap.com/api/snippets/static/screenshots/916518.jpeg") no-repeat center center fixed;
+body {
+  background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")
+    no-repeat center center fixed;
 }
-.wrapper{
-    margin:3%;
-    background-color: rgb(77, 10, 45);
-    padding: 2%;
-    border-radius: 10%;
-     opacity: 0.6;
-    filter: alpha(opacity=50); 
-    text-align: center;
-  
-  }
-  h1{
-    font-size: 250%;
-  }
-  #btn-lg{
-    background-color:rgba(0,0,0, 0.8);
-    color: white;
-    font-family: 'Damion', cursive;
-    font-size:200%;
-  } 
-  #btn-quit{
-    background-color:rgba(0,0,0, 0.8);
-    color: white;
-    font-family: 'Damion', cursive;
-    font-size:200%;
-  }
-  #quotes{
-    font-family: 'Aref Ruqaa', serif;
-    font-size:200%;
-    color:white; 
-  }
-  .form-group{
-    font-family: 'Aref Ruqaa', serif;
-    font-size:200%;
-    color:white;
-  }
-  .form-control{
-    background-color:rgba(0,0,0, 0.8);
-    font-size:80%;
-    font-family: 'Aref Ruqaa', serif;
-    color:white;
-    }
-  #quoteDisplay{
-    font-family: 'Aref Ruqaa', serif;
-    font-size:200%;
-    color:white;
-    }
-  #authorDisplay{
-    font-family: 'Pacifico', cursive;
-    font-size:200%;
-    color:white;
-  }
+.wrapper {
+  margin: 3%;
+  background-color: rgb(77, 10, 45);
+  padding: 2%;
+  border-radius: 10%;
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+  text-align: center;
+}
+h1 {
+  font-size: 250%;
+  color: white;
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-family: "Damion", cursive;
+  font-size: 200%;
+}
+
+#quotes {
+  font-family: "Aref Ruqaa", serif;
+  font-size: 200%;
+  color: white;
+}
+.form-group {
+  font-family: "Aref Ruqaa", serif;
+  font-size: 200%;
+  color: white;
+}
+.form-control {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 80%;
+  font-family: "Aref Ruqaa", serif;
+  color: white;
+}
+
+#quoteDisplay {
+  font-family: "Aref Ruqaa", serif;
+  font-size: 200%;
+  color: white;
+}
+#authorDisplay {
+  font-family: "Pacifico", cursive;
+  font-size: 200%;
+  color: white;
+}
+.error {
+  color: red;
+  font-size: 200%;
+}
+input[type="number"] {
+  width: 30%;
+  padding: 10px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+}
