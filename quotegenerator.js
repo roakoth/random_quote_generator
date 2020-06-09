@@ -1,4 +1,3 @@
-let errorQuote = "Please choose the type of quotes";
 let errorNumber = "Please enter the number of quotes";
 
 const quoteButton = document.getElementById("btn-lg");
@@ -42,9 +41,7 @@ function displayQuotes(radioResult) {
 function generateMoreQuotes(radioResult) {
   let num_quotes = quote_num.value;
   errors.className = "error";
-  if (!radioResult) {
-    errors.innerHTML = errorQuote;
-  } else if (!num_quotes) {
+  if (!num_quotes) {
     errors.innerHTML = errorNumber;
   } else {
     errors.innerHTML = "";
@@ -62,8 +59,8 @@ function generateMoreQuotes(radioResult) {
 }
 
 /*
-printMoreButton resets everything making the user to input number of quotes and generate 
-more quotes
+printMoreButton resets the quotes displayed and number of quotes making the user to input number of quotes  
+and generate more quotes
 */
 printMoreButton.addEventListener("click", () => {
   quote_display.innerHTML = "";
