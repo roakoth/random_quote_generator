@@ -27,9 +27,9 @@ function getRadioResult() {
  */
 function displayQuotes(radioResult) {
   if (radioResult === "successValue") {
-    quote_display.innerHTML += success.print() + "<br>";
+    quote_display.innerHTML += success.print() + "<br>" + "<hr>";
   } else {
-    quote_display.innerHTML += life.print() + "<br>";
+    quote_display.innerHTML += life.print() + "<br>" + "<hr>";
   }
 }
 
