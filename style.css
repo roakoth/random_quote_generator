@@ -22,16 +22,12 @@ h1 {
   font-size: 200%;
 }
 
-#quotes {
+.form-group, #quotes,#quoteDisplay {
   font-family: "Aref Ruqaa", serif;
   font-size: 200%;
   color: white;
 }
-.form-group {
-  font-family: "Aref Ruqaa", serif;
-  font-size: 200%;
-  color: white;
-}
+
 .form-control {
   background-color: rgba(0, 0, 0, 0.8);
   font-size: 80%;
@@ -39,11 +35,6 @@ h1 {
   color: white;
 }
 
-#quoteDisplay {
-  font-family: "Aref Ruqaa", serif;
-  font-size: 200%;
-  color: white;
-}
 #authorDisplay {
   font-family: "Pacifico", cursive;
   font-size: 200%;
