@@ -1,19 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Damion&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
     <title>Quote Generator</title>
   </head>
   <body>
@@ -23,26 +14,13 @@
 
       <div class="form-group">
         <div class="form-check">
-          <input
-            class="form-check-input"
-            type="radio"
-            id="success-radio"
-            value="successValue"
-            name="quote_types"
-            checked="checked"
-          />
+          <input class="form-check-input" type="radio" id="success-radio" value="successValue" name="quote_types" checked="checked"/>
           <label class="form-check-label" for="success-radio">
             Success
           </label>
         </div>
         <div class="form-check">
-          <input
-            class="form-check-input"
-            type="radio"
-            id="life-radio"
-            value="lifeValue"
-            name="quote_types"
-          />
+          <input class="form-check-input" type="radio" id="life-radio" value="lifeValue" name="quote_types"/>
           <label class="form-check-label" for="life-radio">
             Life
           </label>
@@ -51,13 +29,7 @@
 
       <div class="form-group">
         <label for="one">Select number of quotes:</label><br />
-        <input
-          type="number"
-          id="number_quotes"
-          name="number_of_quotes"
-          min="1"
-          max="5"
-        />
+        <input type="number" id="number_quotes" name="number_of_quotes"  min="1"  max="5"/>
       </div>
 
       <div id="displayQuotes">
@@ -66,7 +38,7 @@
       </div>
       <strong> <button id="btn-lg" class="button">New Quote</button> </strong>
     </div>
-    <script src="javascript.js"></script>
-    <script src="quotegenerator.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/quotegenerator.js"></script>
   </body>
 </html>

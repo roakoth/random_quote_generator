@@ -32,7 +32,7 @@ const generateQuotes = {
       this.fragment5[fragment5];
 
     return quote;
-  },
+  }
 };
 
 const success = Object.create(generateQuotes);
